@@ -1,0 +1,17 @@
+pipeline
+{
+  agent any
+
+  stages
+  {
+    stage("Info Ciudad")
+    {
+      steps
+      {
+      echo "Ciudad: Madrid"
+      echo "Población: 3.2M"
+      echo "Clima actual: Soleado"
+      }
+    }
+  }
+}
